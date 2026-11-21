@@ -34,8 +34,8 @@
 <ul id="names">
 
 </ul>
-  </main>
-  <script src="sw.js" defer>
+</main>
+<script src="sw.js" defer>
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("./sw.js").catch((error) => {
       console.error("Не удалось зарегистрировать service worker:", error);
