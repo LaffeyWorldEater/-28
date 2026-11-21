@@ -4,6 +4,7 @@ const CACHE_PREFIX = `-28:${SCOPE}:`;
 const CACHE_NAME = CACHE_PREFIX + VERSION;
 
 const FILES = [
+  "./",
   "./conditions.js",
   "./index.html",
   "./s2.html",
