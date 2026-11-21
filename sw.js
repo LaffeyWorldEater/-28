@@ -1,5 +1,5 @@
 const VERSION = "v1";
-const SCOPE = self.registration.origin;
+const SCOPE = self.registration.scope;
 const CACHE_PREFIX = `-28:${SCOPE}:`;
 const CACHE_NAME = CACHE_PREFIX + VERSION;
 
