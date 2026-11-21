@@ -63,7 +63,7 @@
 </main>
 </form>
 <script src="s1_cat.js" defer></script>
-  <script>
+  <script src="sw.js" defer>
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("./sw.js").catch((error) => {
       console.error("Не удалось зарегистрировать service worker:", error);
