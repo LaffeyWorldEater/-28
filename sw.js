@@ -10,7 +10,6 @@ const FILES = [
   "./s3.html",
   "./style.css",
   "./s_css.css"
-  "./s1_catalog.js"
   "./images/1.png"
   "./images/2.png"
   "./images/3.png"
