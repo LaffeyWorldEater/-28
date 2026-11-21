@@ -9,9 +9,9 @@ const FILES = [
   "./s2.html",
   "./s3.html",
   "./style.css",
-  "./s_css.css"
-  "./images/1.png"
-  "./images/2.png"
+  "./s_css.css",
+  "./images/1.png",
+  "./images/2.png",
   "./images/3.png"
   // Здесь допишите файлы своего приложения.
 ];
