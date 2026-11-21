@@ -13,6 +13,9 @@ const FILES = [
   "./script.js"
   "./s1_cat.js"
   "./s1_catalog.js"
+  "./images/1.png"
+  "./images/2.png"
+  "./images/3.png"
   // Здесь допишите файлы своего приложения.
 ];
 
