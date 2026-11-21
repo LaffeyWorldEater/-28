@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<div class="Fon">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Афиша вечера · V28</title>
+  <link rel="stylesheet" href="s_css.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <form class="request-form" method="get">
+  <main class="page">
+  <h1 class="sd">Форма - Афиша вечера V28</h1>
+
+  <nav>
+    <a href="s1.html">Главное меню</a>
+    <a href="s2.html">Каталог</a>
+</nav>
+<h1>План участия/ Hellol я тебя иЗменил ха-ха</h1>
+
+  
+<label for="evening">Выберите вечер:</label>
+<select id="evening">
+  <option value="" disabled selected>— Выберите вариант —</option>
+  <option value="Роман вечер">Роман вечеров — 15 ноября</option>
+  <option value="Вечер танцев">Вечер танцев — 25 ноября</option>
+  <option value="Танцевальный вечер">Танцевальный вечер — 30 ноября</option>
+</select>
+
+<p>
+  <label for="quantity">Кол-во билетов</label>
+  <input id="quantity" name="quantity" type="number"
+         min="1" step="1" value="1" required>
+</p>
+<label>Коментарий:</label>
+<textarea id="noter" name="notes" rows="4" placeholder="Подсказка: «Опишите ваши пожелания»; заполнение необязательно"></textarea>
+<ul>
+<p>
+  <label for="quantity">Нужна программа:</label>
+  <input id="extra" name="extra" type="checkbox"
+         min="1" step="1" value="yes">
+</p>
+<p>
+  <label for="quantity">Места рядом:</label>
+  <input id="extra" name="extra" type="checkbox"
+         min="1" step="1" value="yes">
+</p>
+
+<p>
+  <label for="quantity">Близость к сцене:</label>
+  <input id="level" name="level" type="range"
+         min="1" step="1" max="6" value="3" aria-describedby="level-hint">
+         <span id="level-hint">1 - Близко; 6 - Далеко</span>
+</p>
+<p id="status" role="status"></p>
+<button id="signupBtn">Записаться</button>
+<p id="show-names"></p>
+
+</ul>
+<p id="result"></p>
+</ul>
+</main>
+</form>
+<script src="s1_cat.js" defer></script>
+</body>
+<footer>
+  <p>Вариант V28</p>
+</footer>
+</html>

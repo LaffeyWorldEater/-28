@@ -1,0 +1,195 @@
+a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible {outline: 3px solid #C2410C; outline-offset: 3px; border: #C2410C;  }
+
+.sd {background-color: #754383; color: #FFFFFF; height: 50px;}
+.request-form {
+  background-color: #FFFFFF;
+  border: 1px solid #754383;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.form-field {
+  margin: 0 0 1rem;
+}
+.form-field > label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: bold;
+}
+.request-form select,
+.request-form input[type="number"],
+.request-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #64748B;
+  border-radius: 0.35rem;
+}
+.request-form input[type="range"] {
+  width: 100%;
+}
+.request-form textarea {
+  resize: vertical;
+}
+
+
+
+
+
+.v2 {color: #754383; margin-left: 10px;}
+.v1 {
+background-color: #754383;
+  color: #FFFFFF;
+  border: 1px solid #835743;
+  border-radius: 0.5rem;
+  padding: 0,5rem;
+  font-weight: bold;
+  margin-top: 5px; margin-bottom: 5px; margin-left: 5px;
+width: 92%;
+  max-width: 56rem;
+  padding: 1rem;}
+  
+.v3 {
+background-color: #FEF3C7;
+  color: #78350F;
+  border: 1px solid #ee7308;
+  border-radius: 0.5rem;
+  padding: 0,5rem;
+  font-weight: bold;
+  margin-top: 5px; margin-bottom: 5px; margin-left: 5px;
+width: 92%;
+  max-width: 56rem;
+  padding: 1rem;}
+* {
+  box-sizing: border-box;
+}
+header {background-color: #754383; color: #FFFFFF;}
+
+
+body {overflow-wrap: anywhere; font-family: Arial, sans-serif;
+font-size: 1rem;
+line-height: 1.5;
+margin: 0;
+color: #392844;
+background-color: #F7EEFA;
+margin: 24px;
+h1, h2, h3, a {color: #754383;}
+main.page {
+  width: 92%;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem;
+}}
+
+.card {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  border: 3px solid #754383;
+  border-radius: 0.5rem;
+  padding: 0,5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.card img {
+  display: block;
+  width: 200px;
+  max-width: auto;
+  height: auto; margin-left: 5px;
+}
+
+
+
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  background-color: #FFFFFF;
+  display: block;
+  padding: 8px 12px;
+  color: #754383;
+  border: 1px solid currentColor;
+  border-color: #754383;
+  border-radius: 6px;
+  text-decoration: none;
+  max-width: 100%;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  text-decoration: underline;
+}
+
+nav a[aria-current="page"] {
+  background-color: white;
+}
+.uls {width: 700px; max-width: 100%;}
+.MaoD {position: fixed; top: 0; left: 0; width: 200px; padding-left: 20px;}
+.g {text-align: left; margin-left: 220px; margin-right: 200px;}
+
+.hd {text-align: left; margin-left: 220px; margin-right: 200px; 
+    width: 360px; max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.hd {
+  display: block;
+  padding: 8px 12px;
+  color: inherit;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  text-decoration: none;
+}
+input[type="range"] {
+  accent-color: #754383;
+}
+
+input[type="checkbox"] {
+  accent-color: #754383;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.products > .card {
+  flex: 1 1 16rem;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  main.page {
+    padding: 0.75rem;
+  }
+  .products > .card {
+    flex-basis: 100%;
+  }
+.request-form select,
+.request-form input[type="number"],
+.request-form textarea {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}}
