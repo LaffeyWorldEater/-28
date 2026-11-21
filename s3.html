@@ -63,6 +63,13 @@
 </main>
 </form>
 <script src="s1_cat.js" defer></script>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js").catch((error) => {
+      console.error("Не удалось зарегистрировать service worker:", error);
+    });
+  }
+</script>
 </body>
 <footer>
   <p>Вариант V28</p>
