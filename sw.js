@@ -4,12 +4,15 @@ const CACHE_PREFIX = `variantnn-web:${SCOPE}:`;
 const CACHE_NAME = CACHE_PREFIX + VERSION;
 
 const FILES = [
-  "./",
+  "./conditions.js",
   "./index.html",
   "./s2.html",
   "./s3.html",
   "./style.css",
-  "./"
+  "./s_css.css"
+  "./script.js"
+  "./s1_cat.js"
+  "./s1_catalog.js"
   // Здесь допишите файлы своего приложения.
 ];
 
