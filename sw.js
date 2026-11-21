@@ -12,7 +12,6 @@ const FILES = [
   "./index.html",
   "./s2.html",
   "./s3.html",
-  "./style.css",
   "./s_css.css",
   "./images/1.png",
   "./images/2.png",
